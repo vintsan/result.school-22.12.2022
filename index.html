@@ -7,35 +7,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Резюме, для моего портфолио">
     <meta name="description" content="Сайт-резюме">
-    <title>Vitaliy resum</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Vitaliy resume</title>
 </head>
 
 <body>
-    <img src="https://games-of-thrones.ru/sites/default/files/pictures/all/Arnold%20Schwarzenegger/23.jpg"
-        alt="Мое фото" width="150">
 
-    <h1>Виталий</h1>
-    <p>
-        Я <strong>оператор 1:С</strong>, у меня есть <strong>права на автомобиль кат. В</strong> и <strong>права на
-            погрузчик кат. В и С</strong>.
-    </p>
-    <p><em>Я люблю смотреть аниме, играть в игры на ПК, переодически смотрю новости по науке и технике.</em></p>
+    <section class="info container">
+        <img src="https://games-of-thrones.ru/sites/default/files/pictures/all/Arnold%20Schwarzenegger/23.jpg"
+            alt="Мое фото" width="150">
+    
+        <div class="description">
+            <h1>Арнольд Шварценеггер</h1>
+            <p>
+                <strong>Я американский культурист, предприниматель, киноактёр, продюсер, государственный и политический деятель австрийского происхождения. 38-й губернатор Калифорнии (был избран на эту должность в октябре 2003 года и переизбран на второй срок в 2006 году).</strong>
+            </p>
+            <p class="social-networks">
+                <em>
+                    Я люблю смотреть аниме, играть в игры на ПК, переодически смотрю новости по науке и технике.
+                </em>
+            </p>
+        </div>
+    </section>
 
-    <h3>Список социальных сетей:</h3>
-    <a href="https://t.me/vintsan" alt="Мой Телеграм" target="_blank">Telegram</a>
-    <a href="#" alt=" Мой Ютуб" target="_blank">Youtube</a>
 
-    <h3>Мои увлечения</h3>
-    <ol>
-        <li>Качалка</li>
-        <li>Езда на велосипеде</li>
-        <li>Бильярд</li>
-        <li>Походы</li>
-        <li>Барбекю/шашлыки</li>
-        <li>Работа по дому</li>
+    <section class="social">
+        <div class="social-links container">
+            <h3>Список социальных сетей:</h3>
+            <a class="telegram links" href="#" alt="Мой Телеграм" target="_blank">Telegram</a>
+            <a class="youtube links" href="#" alt=" Мой Ютуб" target="_blank">Youtube</a>
+        </div>
+    </section>
+
+
+    <section class="hobbi container">
+        <h3>Мои увлечения</h3>
+        <ol class="list">
+            <li class="list-point1 radius1">Качалка</li>
+            <li class="list-point2">Езда на велосипеде</li>
+            <li class="list-point1">Бильярд</li>
+            <li class="list-point2">Походы</li>
+            <li class="list-point1">Барбекю/шашлыки</li>
+            <li class="list-point2 radius2">Работа по дому</li>
+        </ol>
+    </section>
+
+
+    <section class="experience container">
+        <h3>Опыт работы</h3>
+        <table width="400" border="1">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ООО Экогрупп</td>
+                    <td>Оператор 1:С</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>СуперСам</td>
+                    <td>Водитель погрузчика</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>Воентелеком</td>
+                    <td>Водитель-Механик</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>Воентелеком</td>
+                    <td>Водитель</td>
+                    <td>2019</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="contacts">
+        <div class="contacts container">
+            <h3>Связаться со мной</h3>
+            <form>
+                
+                <div>
+                    <label for="name">Ваше имя:</label>
+                    <input id="name" type="text" placeholder="Введите имя">
+                </div>
+                <div>
+                    <label for="email">Ваш email:</label>
+                    <input id="email" type="email" placeholder="Введите email">
+                </div>
+                <div>
+                    <label for="message">Ваше сообщение:</label>
+                    <br>
+                    <textarea name="message" id="message" cols="25" rows="5" placeholder="Введите сообщение..."></textarea>
+                </div>
         
-    </ol>
-
+                <input class="button-links links" type="submit" value="Отправить!">
+            </form>
+        </div>
+    </section>
 
 </body>
 

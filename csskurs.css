@@ -1,0 +1,12 @@
+.green {
+    color: green;
+    border-bottom: 1px solid red; 
+}
+
+a:hover {
+    color: salmon;
+}
+
+.foto {
+    width: 400px;
+}

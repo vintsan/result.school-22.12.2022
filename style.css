@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {     
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 930px;
+    min-width: 450px;
+    
+
+    margin: auto;
+    color: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.container {  
+    background: #e4e1e1;
+   
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.info img {    
+    width: 150px;
+    background: #ffffff;   
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    margin-bottom: 10px;    
+}
+
+.description h1 {  
+    margin: 0;
+    padding: 10px 10px;
+
+    color: rgba(0, 0, 0, 0.8);
+    background: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.description p {
+    font-style: italic;
+    font-weight: 500;
+    background: #29abe3;
+    margin: 0;
+
+    padding: 10px 10px;
+    padding-left: 30px;
+}
+
+
+
+p.social-networks {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+
+    background: red;   
+}
+
+.links {
+    font-family: inherit;
+    font-size: 18px;
+    margin-left: 30px;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background: #a0a0a0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.social h3 {
+    padding-bottom: 10px;
+}
+
+.telegram:visited {
+    background-color: #b3b1b1;
+}
+.telegram:hover {
+    color: #00ffff;
+    background: #000;
+    text-decoration: underline;
+}
+.telegram:active {
+    color: rgb(255, 0, 0);
+    
+}
+
+.youtube:visited {
+    background-color: #b3b1b1;
+}
+
+.youtube:hover {
+    color: rgb(255, 0, 0);
+    background: #000;
+    text-decoration: underline;
+}
+.youtube:active {
+    color: #00ffff;
+}
+
+
+.hobbi h3 {
+    padding-bottom: 10px;
+}
+
+
+
+.list {
+    font-weight: 600;
+    color: #000;
+    background: #eef06e;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-family: inherit;    
+}
+
+.list-point1 {
+   background: #9ed5ec;
+}
+
+.list-point2 {
+   background: #c0b5f0;
+}
+
+.radius1 {
+    border-top-right-radius: 10px;
+}
+
+.radius2 {
+    border-bottom-right-radius: 10px;
+}
+
+.experience h3 {
+    padding-bottom: 10px;
+}
+
+.experience table {
+    background: #cce5f0;
+}
+.experience thead {
+    background: #fcc225;
+}
+
+.contacts h3 {
+    padding-bottom: 10px;
+}
+
+.contacts form {
+    padding-left: 10px;
+}
+
+.button-links:visited {
+    color: rgb(30, 255, 0);
+    background-color: #00ffff;
+}
+.button-links:hover {
+    color: rgb(255, 255, 255);
+    background: #000;
+}
+.button-links:active {
+    color: #ff0000;
+}
