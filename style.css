@@ -119,9 +119,13 @@ p.social-networks {
     
 }
 
-.social h3 {
-   
+.telegram {
+    background-color: #37aae2;
 }
+.youtube {
+    background-color: #fd0f0f;
+}
+
 
 .telegram:visited {
     background-color: #b3b1b1;
